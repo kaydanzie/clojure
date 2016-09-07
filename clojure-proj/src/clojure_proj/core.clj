@@ -3,4 +3,4 @@
 
 (defn -main
   [& args]
-  (println "Hello, World!"))
+  (print "Hello, World!"))
