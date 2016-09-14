@@ -1,4 +1,4 @@
-(ns functions.fib
+(ns functions.func
   (:gen-class))
 
 
