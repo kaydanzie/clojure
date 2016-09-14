@@ -30,6 +30,14 @@
 
 
 
+(defn area [x]
+	;read dimensions from user input, evaluate within case
+	(case x
+		"rectangle" (* (read-string (read-line)) (read-string (read-line)))
+		"circle" (* Math/PI (read-string (read-line)))
+		"triangle" (* 0.5 (* (read-string (read-line)) (read-string (read-line))))
+		"some other area")
+	)
 
 
 
@@ -40,7 +48,8 @@
   ;read-line is user input in command line
   ;read-string converts user input to integer
   (println "Factorial: " (factorial (read-string (read-line))))
-  (println "GCD: " (gcd 20 40))
+  (println "GCD: " (gcd (read-string (read-line)) (read-string (read-line))))
+  (println "Area: " (area (read-line)))
   )
 
 
