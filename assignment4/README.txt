@@ -1,0 +1,3 @@
+Kayla Ziegler
+The program works correctly, it just isn't fast enough when run with your Java test files. For any input under like 12 characters, your program says it takes around 4 seconds but when I do it just through the command line, it's all but instant. I think my program is really efficient and I couldn't think of a way to make it work with a logarithmic runtime, because clojure isn't efficient in using variables and you really aren't supposed to use them a lot, which restricted me a lot in my implementation. Also, just for the record, on October 10th we decided the time limit was 60 seconds, Josh sent it in the slack channel as well. But I feel like mine could work in under 30 seconds just not through your program because it makes it go super slow.
+
