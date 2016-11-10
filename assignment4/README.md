@@ -1,36 +1,12 @@
-# assignment4
+## Assignment 4
+DNA Substrings from CodeFights.com
 
-FIXME: description
+You are given a DNA sequence: a string that contains only characters 'A', 'C', 'G', and 'T'. Your task is to calculate the number of substrings of sequence, in which each of the symbols appear the same number of times.
 
-## Installation
+Example 1: For sequence = "ACGTACGT", the output should be 6. All substrings of length 4 contain each symbol exactly once (+5), and the whole sequence contains each symbol twice (+1).
 
-Download from http://example.com/FIXME.
+Example 2: For sequence = "AAACCGGTTT", the output should be 1. Only substring "AACCGGTT" satisfies the criterion above: it contains each symbol twice.
 
-## Usage
+Input: String, a sequence that consists only of symbols 'A', 'C', 'G', and 'T'. Length constraint: 0 < sequence.length < 100000.
 
-FIXME: explanation
-
-    $ java -jar assignment4-0.1.0-standalone.jar [args]
-
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
-
-## License
-
-Copyright © 2016 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Output: Integer, the number of substrings where each symbol appears equally many times.

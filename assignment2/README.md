@@ -1,36 +1,6 @@
-# functions
+## Assignment 2
+Functions
 
-FIXME: description
-
-## Installation
-
-Download from http://example.com/FIXME.
-
-## Usage
-
-FIXME: explanation
-
-    $ java -jar functions-0.1.0-standalone.jar [args]
-
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
-
-## License
-
-Copyright © 2016 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+<ul><li>Function to calculate the greatest common divisor (gcd) of a given user input pair</li>
+<li>Function to calculate the Fibonacci sequence with user input provided length</li>
+<li>Function to calculate area given user input provided shape and numbers</li></ul>

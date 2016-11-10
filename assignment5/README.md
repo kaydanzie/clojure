@@ -1,14 +1,4 @@
-# assignment5
+## Assignment 5
+CompletetheSequence from CodeFights.com
 
-A Clojure library designed to ... well, that part is up to you.
-
-## Usage
-
-FIXME
-
-## License
-
-Copyright © 2016 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+You are given 4 first numbers in the series as a string, in which the numbers are separated by commas. Determine whether the series is arithmetic progression, geometric progression, or pseudo-fibonacci, and return the next number in the sequence.
