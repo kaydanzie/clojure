@@ -1,6 +1,6 @@
 (ns assignment5.core)
 
-
+;https://codefights.com/challenge/QLdW6grw8hEr75tLu
 (defn completeSequence [in]
 	;second line of each condition is return value of completeSequence
 	;an integer representing the next number in the sequence
@@ -28,7 +28,7 @@
 (defn -main
   [& args]
 
-  ;loop through 8 test cases
+  ;loop through 8 test  in allTests
   (loop [counter 0]
 		(if-not (> counter 7)
 			;do lets you perform more than one operation in if statement
